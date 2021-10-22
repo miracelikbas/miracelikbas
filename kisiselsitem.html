@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Miraç Çelikbaş'ın kişisel web sitesi</title>
+    </head>
+
+    <body>
+   
+<h1>Miraç Çelikbaş</h1>
+<h2>Kişisel Siteme Hoşgeldiniz</h2>
+<img src="resim/vesikalık.jpg"  width="250" height="250" title="Miraç"> <br>
+
+<a href="kisiselsitem.html">anasayfa|</a>
+<a href="Ben kimim.html">Ben kimim</a> |
+<a href="ilgi alanlarım.html">ilgi alanlarım</a> |
+<a href="iletişim.html">iletişim</a>   |
+<br>
+<br>
+<br>
+<form name="abone" action="gönderilen.php" method="GET" >
+    <input type="checkbox" name="abone">siteme abone ol
+    <input type="checkbox" name="medeni"bekar>
+
+    <input type="submit" value="abone ol">
+</form>
+<br>
+<br>
+<h1>öneriler</h1>
+
+<table border="2">
+    <form name="öneri">
+    <tr><th>ad</th><td><input type="text"></td></tr>
+    <tr><th>soyad</th><td><input type="text"></td></tr>
+    <tr><th>doğum yeri</th><td>
+        <select name="dyeri">
+        <option selected>İstanbul</option>
+        <option>ankara</option>
+        <option>antalya</option>
+    </select></td>
+    </tr>
+    <tr><th>öneri</th><td><textarea name="öneri" rows="5" cols="30"></textarea></td></tr>
+    <tr><td></td><td><input type="image" src="resim/indir.jpg" width="50"> </td></tr>
+    </form>
+</table>
+
+    </body>
+</html>
